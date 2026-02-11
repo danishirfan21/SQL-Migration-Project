@@ -39,8 +39,8 @@ customer_metrics AS (
     SELECT
         *,
         CASE
-            WHEN customer_lifespan_days = 0 THEN total_revenue
-            ELSE SAFE_DIVIDE(total_revenue * 365, customer_lifespan_days)
+            WHEN DATE_DIFF(CURRENT_DATE(), DATE(first_order_date), DAY) < 30 THEN total_revenue
+            ELSE SAFE_DIVIDE(total_revenue * 365, DATE_DIFF(CURRENT_DATE(), DATE(first_order_date), DAY))
         END AS annualized_revenue,
         DATE_DIFF(CURRENT_DATE(), DATE(last_order_date), DAY) AS days_since_last_order,
         CASE

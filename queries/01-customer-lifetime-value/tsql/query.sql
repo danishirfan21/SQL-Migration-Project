@@ -38,8 +38,8 @@ CustomerMetrics AS (
     SELECT
         *,
         CASE
-            WHEN CustomerLifespanDays = 0 THEN TotalRevenue
-            ELSE TotalRevenue / NULLIF(CustomerLifespanDays, 0) * 365
+            WHEN DATEDIFF(DAY, FirstOrderDate, GETDATE()) < 30 THEN TotalRevenue
+            ELSE TotalRevenue / NULLIF(DATEDIFF(DAY, FirstOrderDate, GETDATE()), 0) * 365
         END AS AnnualizedRevenue,
         DATEDIFF(DAY, LastOrderDate, GETDATE()) AS DaysSinceLastOrder,
         CASE

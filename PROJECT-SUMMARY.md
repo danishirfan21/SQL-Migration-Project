@@ -105,9 +105,10 @@ This production-quality SQL migration portfolio has been successfully created an
 **Executable Files:**
 - 3 schema files (one per platform)
 - 10 T-SQL query files
-- 5 PostgreSQL query files
-- 3 BigQuery query files
-- **Total: 21 executable SQL files**
+- 6 PostgreSQL query files (Queries 1, 2, 3, 5*, 8)
+- 4 BigQuery query files (Queries 1, 2, 5, 8)
+- 1 Sample data generation script (T-SQL)
+- **Total: 24 executable SQL files**
 
 ## 📊 Project Statistics
 
@@ -182,7 +183,8 @@ SQL-Migration-Project/
 │   │   └── tsql/query.sql             ✅
 │   ├── 08-customer-segmentation/
 │   │   ├── tsql/query.sql             ✅
-│   │   └── postgresql/query.sql       ✅
+│   │   ├── postgresql/query.sql       ✅
+│   │   └── bigquery/query.sql         ✅
 │   ├── 09-order-fulfillment-analytics/
 │   │   └── tsql/query.sql             ✅
 │   └── 10-price-optimization-analysis/
@@ -195,7 +197,7 @@ SQL-Migration-Project/
 │       └── bigquery-optimization.md   ✅
 │
 └── sample-data/
-    └── (Ready for CSV data generation)
+    └── generate_sample_data.sql       ✅
 ```
 
 ## 🚀 How to Use This Portfolio

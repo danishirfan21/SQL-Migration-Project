@@ -38,8 +38,8 @@ customer_metrics AS (
     SELECT
         *,
         CASE
-            WHEN customer_lifespan_days = 0 THEN total_revenue
-            ELSE total_revenue / NULLIF(customer_lifespan_days, 0) * 365
+            WHEN EXTRACT(DAY FROM (CURRENT_TIMESTAMP - first_order_date)) < 30 THEN total_revenue
+            ELSE total_revenue / NULLIF(EXTRACT(DAY FROM (CURRENT_TIMESTAMP - first_order_date)), 0) * 365
         END AS annualized_revenue,
         EXTRACT(DAY FROM (CURRENT_TIMESTAMP - last_order_date))::INTEGER AS days_since_last_order,
         CASE
