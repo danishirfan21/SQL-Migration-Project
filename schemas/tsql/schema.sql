@@ -4,6 +4,13 @@
 -- Scenario: Multi-vendor e-commerce platform with inventory management
 -- Database: GlobalShopDB
 
+-- Create database if it doesn't exist
+IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'GlobalShopDB')
+BEGIN
+    CREATE DATABASE GlobalShopDB;
+END
+GO
+
 USE GlobalShopDB;
 GO
 
