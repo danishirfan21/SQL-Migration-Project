@@ -1,0 +1,6 @@
+supplier_id,supplier_name,country,contact_email,rating,is_active
+1,TechGiant Solutions,USA,contact@techgiant.com,4.8,True
+2,Global Electronics,China,sales@globalelec.cn,4.5,True
+3,EuroSoft Hardware,Germany,info@eurosoft.de,4.2,True
+4,Pacific Gadgets,Japan,support@pacificgadgets.jp,4.7,True
+5,InnoTech India,India,biz@innotech.in,3.9,True

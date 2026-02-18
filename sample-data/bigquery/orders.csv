@@ -1,0 +1,16 @@
+order_id,customer_id,order_date,total_amount,shipping_cost,tax_amount,order_status,payment_method,shipping_country
+1,1,2025-02-22 00:00:00,1549.98,50.0,50.0,Delivered,Credit Card,USA
+2,1,2025-08-21 00:00:00,299.99,10.0,15.0,Delivered,Credit Card,USA
+3,2,2025-03-24 00:00:00,249.99,15.0,12.0,Delivered,PayPal,UK
+4,3,2025-04-23 00:00:00,99.99,5.0,5.0,Delivered,Debit Card,Canada
+5,4,2025-05-23 00:00:00,1499.99,60.0,75.0,Delivered,Credit Card,Australia
+6,4,2026-01-18 00:00:00,79.99,10.0,5.0,Shipped,Credit Card,Australia
+7,5,2025-06-22 00:00:00,299.99,20.0,15.0,Delivered,Credit Card,Germany
+8,6,2025-07-22 00:00:00,129.99,10.0,8.0,Delivered,PayPal,France
+9,7,2025-08-21 00:00:00,499.99,30.0,25.0,Delivered,Bank Transfer,Japan
+10,8,2025-09-20 00:00:00,1899.99,80.0,95.0,Delivered,Credit Card,USA
+11,1,2026-02-07 00:00:00,59.99,5.0,3.0,Processing,Credit Card,USA
+12,9,2025-10-20 00:00:00,159.99,15.0,10.0,Delivered,Credit Card,UK
+13,10,2025-11-19 00:00:00,99.99,10.0,5.0,Delivered,PayPal,Canada
+14,4,2026-02-12 00:00:00,249.99,15.0,12.0,Pending,Credit Card,Australia
+15,2,2025-12-19 00:00:00,1499.99,45.0,60.0,Delivered,Credit Card,UK

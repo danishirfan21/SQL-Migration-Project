@@ -1,0 +1,11 @@
+customer_id,email,first_name,last_name,country,registration_date,customer_segment,is_active
+1,john.doe@email.com,John,Doe,USA,2025-02-17 00:00:00,Gold,True
+2,jane.smith@email.com,Jane,Smith,UK,2025-03-24 00:00:00,Silver,True
+3,robert.brown@email.com,Robert,Brown,Canada,2025-04-23 00:00:00,Bronze,True
+4,emily.davis@email.com,Emily,Davis,Australia,2025-05-23 00:00:00,Platinum,True
+5,michael.wilson@email.com,Michael,Wilson,Germany,2025-06-22 00:00:00,Gold,True
+6,sarah.miller@email.com,Sarah,Miller,France,2025-07-22 00:00:00,Silver,True
+7,david.taylor@email.com,David,Taylor,Japan,2025-08-21 00:00:00,Bronze,True
+8,linda.anderson@email.com,Linda,Anderson,USA,2025-09-20 00:00:00,Platinum,True
+9,james.thomas@email.com,James,Thomas,UK,2025-10-20 00:00:00,Gold,True
+10,elizabeth.jackson@email.com,Elizabeth,Jackson,Canada,2025-11-19 00:00:00,Silver,True

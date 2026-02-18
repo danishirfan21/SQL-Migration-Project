@@ -1,0 +1,11 @@
+product_id,product_name,category,sub_category,supplier_id,base_price,current_price,cost_price,is_active,created_date
+1,UltraBook Pro 15,Electronics,Laptops,1,1200.0,1499.99,900.0,True,2025-02-17 00:00:00
+2,SmartWatch Elite,Electronics,Wearables,2,200.0,249.99,150.0,True,2025-02-17 00:00:00
+3,NoiseCancel Headphones,Electronics,Audio,4,250.0,299.99,180.0,True,2025-02-17 00:00:00
+4,ErgoKeyboard K9,Computers,Peripherals,3,80.0,99.99,50.0,True,2025-02-17 00:00:00
+5,4K Monitor 32in,Electronics,Monitors,1,400.0,499.99,320.0,True,2025-02-17 00:00:00
+6,Wireless Mouse Pro,Computers,Peripherals,2,40.0,59.99,25.0,True,2025-02-17 00:00:00
+7,SSD Drive 1TB,Computers,Storage,1,100.0,129.99,70.0,True,2025-02-17 00:00:00
+8,Gaming Laptop RTX,Electronics,Laptops,4,1500.0,1899.99,1200.0,True,2025-02-17 00:00:00
+9,Webcam 1080p,Computers,Peripherals,5,50.0,79.99,35.0,True,2025-02-17 00:00:00
+10,Mechanical Keyboard G,Computers,Peripherals,4,120.0,159.99,90.0,True,2025-02-17 00:00:00

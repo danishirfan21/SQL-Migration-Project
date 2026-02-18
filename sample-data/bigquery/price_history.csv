@@ -1,0 +1,4 @@
+price_history_id,product_id,price,effective_date,end_date,change_reason
+1,1,1399.99,2025-02-17 00:00:00,2025-08-21 00:00:00,Initial Launch
+2,1,1499.99,2025-08-21 00:00:00,,Price Adjustment
+3,2,249.99,2025-03-24 00:00:00,,Initial Launch

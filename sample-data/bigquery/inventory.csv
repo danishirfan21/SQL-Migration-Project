@@ -1,0 +1,11 @@
+inventory_id,product_id,warehouse_location,quantity_on_hand,reorder_level,reorder_quantity,last_restocked
+1,1,NA-East,50,10,20,2026-01-18 00:00:00
+2,2,APAC-Tokyo,100,25,50,2025-12-19 00:00:00
+3,3,EU-Central,45,15,30,2026-01-18 00:00:00
+4,4,EU-Central,80,20,40,2025-11-19 00:00:00
+5,5,NA-West,30,5,15,2026-01-18 00:00:00
+6,6,NA-East,200,50,100,2026-01-18 00:00:00
+7,7,NA-West,150,40,80,2025-12-19 00:00:00
+8,8,APAC-Sydney,20,10,10,2026-01-18 00:00:00
+9,9,UK-London,120,30,60,2025-10-20 00:00:00
+10,10,NA-East,60,20,40,2026-01-18 00:00:00

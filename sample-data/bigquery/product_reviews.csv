@@ -1,0 +1,5 @@
+review_id,product_id,customer_id,rating,review_text,review_date,is_verified_purchase
+1,1,1,5,Best laptop I have ever owned! Super fast.,2025-03-24 00:00:00,True
+2,3,1,4,"Great sound, but a bit heavy.",2025-09-20 00:00:00,True
+3,2,2,5,Love the design and battery life.,2025-04-23 00:00:00,True
+4,1,4,3,Powerful but expensive.,2025-06-22 00:00:00,True

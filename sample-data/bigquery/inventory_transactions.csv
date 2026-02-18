@@ -1,0 +1,5 @@
+transaction_id,product_id,transaction_type,quantity,transaction_date,order_id,notes
+1,1,Purchase,100,2025-08-21 00:00:00,,Initial stock
+2,1,Sale,-1,2025-02-22 00:00:00,1,Order fulfillment
+3,3,Sale,-1,2025-08-21 00:00:00,2,Order fulfillment
+4,1,Adjustment,-2,2026-01-28 00:00:00,,Damaged during relocation
