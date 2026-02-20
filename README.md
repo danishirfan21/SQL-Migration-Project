@@ -327,13 +327,6 @@ This portfolio demonstrates skills relevant to:
 
 This project is available for educational and portfolio purposes. Feel free to use, modify, and reference.
 
-## 👤 Author
-
-**Your Name**
-- Portfolio: [your-portfolio-link]
-- LinkedIn: [your-linkedin]
-- GitHub: [@your-github]
-
 ## 🙏 Acknowledgments
 
 Dataset scenario inspired by real-world e-commerce analytics challenges. Query patterns based on common business intelligence requirements in enterprise environments.
